@@ -1,4 +1,4 @@
-package com.exam.compose_clone
+package com.exam.compose_clone.screen
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
@@ -8,6 +8,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.exam.compose_clone.navigation.BottomNavigationBar
+import com.exam.compose_clone.navigation.NaviItem
+import com.exam.compose_clone.navigation.NavigationGraph
 
 @Composable
 fun MainScreen(navController: NavHostController) {

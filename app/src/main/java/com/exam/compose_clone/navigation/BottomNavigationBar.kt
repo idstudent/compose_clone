@@ -1,4 +1,4 @@
-package com.exam.compose_clone
+package com.exam.compose_clone.navigation
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
@@ -30,6 +30,7 @@ import androidx.compose.ui.layout.positionInParent
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.exam.compose_clone.AppColors
 
 @Composable
 fun BottomNavigationBar(navController: NavController, currentRoute: String?) {

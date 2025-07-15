@@ -1,6 +1,5 @@
-package com.exam.compose_clone
+package com.exam.compose_clone.navigation
 
-import androidx.annotation.DrawableRes
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Person

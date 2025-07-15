@@ -1,9 +1,10 @@
-package com.exam.compose_clone
+package com.exam.compose_clone.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.exam.compose_clone.screen.HomeScreen
 
 @Composable
 fun NavigationGraph(navController: NavHostController) {
