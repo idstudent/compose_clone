@@ -66,4 +66,5 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest:1.5.1")
     implementation("androidx.navigation:navigation-compose:2.5.3")
     implementation("androidx.compose.material3:material3:1.3.1")
+    implementation("io.coil-kt:coil-compose:2.4.0")
 }
